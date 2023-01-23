@@ -1,0 +1,47 @@
+site_name: french-exercices
+site_url: https://github.com/GiuliaGualtieri/french-exercices
+site_author: Giulia Gualtieri
+site_description: Python repository to do practice in french.
+
+repo_name: GiuliaGualtieri/french-exercices
+repo_url: https://github.com/GiuliaGualtieri/french-exercices
+
+copyright: Copyright (c) 2023-present Giulia Gualtieri <giulia.gualtieri@mail.polimi.it>
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+
+plugins:
+  - search:
+  - git-revision-date-localized:
+      type: timeago
+      enable_creation_date: true
+  - mkdocstrings:
+
+extra:
+  social:
+    - icon: fontawesome/brands/python
+      link: https://pypi.org/project/french-exercices/
+    - icon: fontawesome/brands/github
+      link: https://github.com/GiuliaGualtieri
+
+nav:
+  - Home: index.md
+  - License: license.md
