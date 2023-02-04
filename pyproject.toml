@@ -19,7 +19,7 @@ description = "Python repository to do practice in french."
 dynamic = ["version"]
 keywords = []
 license = "MIT"
-name = "french-exercices"
+name = "french_exercises"
 readme = "README.md"
 requires-python = ">=3.7"
 
@@ -29,7 +29,7 @@ Issues = "https://github.com/GiuliaGualtieri/french-exercices/issues"
 Source = "https://github.com/GiuliaGualtieri/french-exercices"
 
 [tool.hatch.version]
-path = "french-exercices/__init__.py"
+path = "french_exercises/__init__.py"
 
 [project.optional-dependencies]
 docs = [
@@ -54,12 +54,12 @@ features = [
 
 [tool.hatch.envs.quality.scripts]
 check = [
-  "ruff french-exercices tests",
-  "black --check --diff --preview french-exercices tests",
+  "ruff french_exercises tests",
+  "black --check --diff --preview french_exercises tests",
 ]
 format = [
-  "ruff --fix french-exercices tests",
-  "black --preview french-exercices tests",
+  "ruff --fix french_exercises tests",
+  "black --preview french_exercises tests",
   "check",
 ]
 
@@ -79,7 +79,7 @@ select = [
 ]
 
 [tool.ruff.isort]
-known-first-party = ["french-exercices"]
+known-first-party = ["french_exercises"]
 
 [tool.hatch.envs.test]
 features = [
@@ -116,4 +116,11 @@ exclude = [
   "/tests",
   "/Dockerfile",
   "/.dockerignore",
+]
+
+[tool.pytest.ini_options]
+filterwarnings = [
+    "ignore::UserWarning",
+    'ignore:function ham\(\) is deprecated:DeprecationWarning',
+    "ignore:DeprecationWarning",
 ]

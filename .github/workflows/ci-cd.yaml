@@ -10,7 +10,7 @@ on:
       - master
     paths:
       - .github/workflows/ci-cd.yaml
-      - french_exercices/**
+      - french_exercises/**
       - tests/**
   release:
     types:
@@ -36,8 +36,8 @@ jobs:
 
       - name: check-quality
         run: |
-          ruff french_exercices tests
-          black --check --diff --preview french_exercices tests
+          ruff french_exercises tests
+          black --check --diff --preview french_exercises tests
 
   run-tests:
     needs: check-quality
