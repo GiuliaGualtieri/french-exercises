@@ -44,7 +44,7 @@ df[["check", "new"]] = [
 ]
 
 # %%
-df = df.loc[df["check"] is False]
+df = df.loc[df["check"]==False]
 
 # %%
 df.head(10)
