@@ -44,6 +44,6 @@ In addition to BARThez that is pretrained from scratch, the multilingual BART, m
 Author: Giulia Gualtieri    
 Email: giulia.gualtieri@mail.polimi.it   
 
-About me: Data Scientist :microscope: with strong passion for Machine Learning :computer: and Artificial Intelligence :hought_balloon: applications. 
+About me: Data Scientist :microscope: with strong passion for Machine Learning :computer: and Artificial Intelligence :thought_balloon: applications. 
 
 
