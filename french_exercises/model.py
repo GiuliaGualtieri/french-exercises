@@ -1,9 +1,9 @@
 # %%
-from transformers import AutoTokenizer, TFAutoModelForSeq2SeqLM, AutoModelForSeq2SeqLM
+from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
 
 # %% tags=["parameters"]
 # declare a list tasks whose products you want to use as inputs
-upstream = ['read-data']
+upstream = ["read-data"]
 product = None
 
 # %%
