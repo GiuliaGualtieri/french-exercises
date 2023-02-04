@@ -4,13 +4,13 @@ on:
   workflow_dispatch:
   pull_request:
     branches:
-      - main
+      - master
   push:
     branches:
-      - main
+      - master
     paths:
       - .github/workflows/ci-cd.yaml
-      - french-exercices/**
+      - french_exercices/**
       - tests/**
   release:
     types:
@@ -27,7 +27,7 @@ jobs:
       - name: setup-python
         uses: actions/setup-python@v4
         with:
-          python-version: 3.8
+          python-version: 3.9
 
       - name: install-dependencies
         run: |
@@ -36,8 +36,8 @@ jobs:
 
       - name: check-quality
         run: |
-          ruff french-exercices tests
-          black --check --diff --preview french-exercices tests
+          ruff french_exercices tests
+          black --check --diff --preview french_exercices tests
 
   run-tests:
     needs: check-quality
@@ -51,7 +51,7 @@ jobs:
       - name: setup-python
         uses: actions/setup-python@v4
         with:
-          python-version: 3.8
+          python-version: 3.9
 
       - name: install-dependencies
         run: |
@@ -73,7 +73,7 @@ jobs:
       - name: setup-python
         uses: actions/setup-python@v4
         with:
-          python-version: 3.8
+          python-version: 3.9
 
       - name: install-dependencies
         run: |
