@@ -1,20 +1,20 @@
 tasks:
   # read dataset
-  - source: french-exercises/0_read_data.py
+  - source: french_exercises/read_data.py
     name: read-data
     product:
-      nb: output/0_read_data.html
+      nb: output/read_data.html
       data: output/df.csv
 
   # model training
-  - source: french-exercises/1_model.py
+  - source: french_exercises/model.py
     name: model
     product: 
-      nb: output/1_model.html
+      nb: output/model.html
 
   # decode dataset
-  - source: french-exercises/2_decode_data.py
+  - source: french_exercises/decode_data.py
     name: decode-data
     product:
-      nb: output/2_decode_data.html
+      nb: output/decode_data.html
       data: output/df_QA.csv

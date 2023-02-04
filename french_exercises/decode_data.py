@@ -1,20 +1,18 @@
+# %%
+import pandas as pd
+import random
+from french_exercises.model import f_decode_input
 # %% tags=["parameters"]
 # declare a list tasks whose products you want to use as inputs
 upstream = ['read-data', 'model']
 product = None
-
-
-# %% [markdown]
-# ## Decode the input
-import pandas as pd
-import random
 
 # %%
 dict_QA = {'question' : [], 'answer' : []}
 
 df = pd.read_csv(upstream['read-data']['data'])
 
-for row in upstream.iterrows():
+for row in df.iterrows():
     words = row[1]['new'].split()
     rnd = random.randint(0,len(words)-1)
     to_mask = words[rnd]
