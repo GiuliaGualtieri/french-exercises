@@ -19,7 +19,7 @@ with open("data/lepetitprinceexupery.txt", "r") as f:
                 df = pd.DataFrame(np.append(df.values, [[phrase]], axis=0))
 
 # %%
-list_punctuation_to_remove = "!#$%&()*+-./:;<=>?@[\\]^_{|}~)"
+list_punctuation_to_remove = "!#$%&()*+./:;<=>?@[\\]^_{|}~)"
 
 # %%
 def check_row_is_to_remove(row):

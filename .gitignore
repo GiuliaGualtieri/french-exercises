@@ -117,4 +117,4 @@ venv.bak/
 
 # Output
 output/
-data/
+# data/

@@ -8,7 +8,7 @@ from time import sleep
 customtkinter.set_appearance_mode("System")  # Modes: "System" (standard), "Dark", "Light"
 customtkinter.set_default_color_theme("blue")  # Themes: "blue" (standard), "green", "dark-blue"
 
-df_QA = pd.read_csv("data/output/df_QA.csv", header=0)
+df_QA = pd.read_csv("data/out/df_QA.csv", header=0)
 
 class App(customtkinter.CTk):
     def __init__(self):
