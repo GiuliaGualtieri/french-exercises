@@ -1,4 +1,4 @@
-# Let's do practice in French! :red_circle: :white_circle: :large_blue_circle:
+# Let's practice in French! :red_circle: :white_circle: :large_blue_circle:
 This is a simple app to do practice in french language, based on a pretrained [model](#art-model-description) for the [fill-mask task](#dart-fill-mask-task).
 
 ### Table of Concept
