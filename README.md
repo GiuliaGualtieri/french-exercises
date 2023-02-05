@@ -19,7 +19,7 @@ This is a simple app to do practice in french language, based on a pretrained [m
 
 https://user-images.githubusercontent.com/48122795/216835190-128ab6ec-07a9-4d6b-9765-fbbe6d7280ff.mp4  
 
-| _Video example of how to do practice with FRENCH EXERCISES app! 🎈_
+| _Video example of how to do practice with FRENCH EXERCISES app! 🎈 _
 
 ## :bulb: Idea
 The idea behind this project is to exploit existing pretrained model on [fill-mask task](#dart-fill-mask-task) in order to learn better a language.  
@@ -59,7 +59,8 @@ For more detail on the model, check the following sources: [paper](https://arxiv
 Author: Giulia Gualtieri    
 Email: giulia.gualtieri@mail.polimi.it   
 
-About me: Data Scientist :microscope: with strong passion for Machine Learning :computer: and Artificial Intelligence :thought_balloon: applications. As you can read, I'm also passionate about french language and culture. 
+About me: Data Scientist :microscope: with strong passion for Machine Learning :computer: and Artificial Intelligence :thought_balloon: applications.  
+As you can read, I'm also passionate about french language and culture.   
 Language speaken: English, Italian, French. 
 
 
