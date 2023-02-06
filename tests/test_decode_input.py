@@ -1,6 +1,5 @@
-import pytest
-
 from french_exercises.model import f_decode_input
+
 
 def test_decode_input():
     TXT = "Lorsque j'avais six ans j'ai vu, une fois, une <mask> image."
