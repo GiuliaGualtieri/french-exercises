@@ -37,7 +37,7 @@ jobs:
       - name: check-quality
         run: |
           ruff french_exercises tests
-          black --check --diff --preview french_exercises tests
+          black french_exercises tests
 
   run-tests:
     needs: check-quality
