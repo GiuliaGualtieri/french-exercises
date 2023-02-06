@@ -28,9 +28,9 @@ def check_row_is_to_remove(row):
     # we want it has at least 5 words.
     len_row = len(new_row.split())
     if len_row < 5:
-        to_clean = 'True'
+        to_clean = "True"
     else:
-        to_clean = 'False'
+        to_clean = "False"
     return [to_clean, new_row]
 
 
@@ -44,7 +44,7 @@ df[["check", "new"]] = [
 ]
 
 # %%
-df = df.loc[df["check"]=='False']
+df = df.loc[df["check"] == "False"]
 
 # %%
 df.head(10)
