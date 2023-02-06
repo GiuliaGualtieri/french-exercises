@@ -10,8 +10,9 @@ This is a simple app to do practice in french language, based on a pretrained [m
   - [Model description](#art-model-description)
 - [Contact](#incoming_envelope-contact)
 
----
 ## :inbox_tray: Installation
+
+- [ ] _**to be done asap**_
 
 ## :rocket: Usage
 ![screenshot](data/video/screenshot.png)  
