@@ -46,6 +46,11 @@ quality = [
 tests = [
   "pytest~=7.1.2",
 ]
+dev = [
+  "transformers",,
+  "numpy",
+  "pandas",
+]
 
 [tool.hatch.envs.quality]
 features = [
