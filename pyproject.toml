@@ -50,7 +50,7 @@ dev = [
   "transformers",
   "numpy",
   "pandas",
-  'torch",
+  "torch",
 ]
 
 [tool.hatch.envs.quality]
