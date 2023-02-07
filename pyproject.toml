@@ -47,7 +47,7 @@ tests = [
   "pytest~=7.1.2",
 ]
 dev = [
-  "transformers",,
+  "transformers",
   "numpy",
   "pandas",
 ]
