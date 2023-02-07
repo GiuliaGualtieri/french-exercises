@@ -60,7 +60,7 @@ jobs:
           pip install -e .
 
       - name: run-tests
-        run: pytest tests/ -s --durations 0
+        run: pytest -v --doctest-modules tests
 
   deploy-docs:
     needs: run-tests
