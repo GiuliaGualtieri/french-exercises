@@ -1,10 +1,10 @@
-site_name: french-exercices
-site_url: https://github.com/GiuliaGualtieri/french-exercices
+site_name: french-exercises
+site_url: https://github.com/GiuliaGualtieri/french-exercises
 site_author: Giulia Gualtieri
-site_description: Python repository to do practice in french.
+site_description: Python repository to practice in french.
 
-repo_name: GiuliaGualtieri/french-exercices
-repo_url: https://github.com/GiuliaGualtieri/french-exercices
+repo_name: GiuliaGualtieri/french-exercises
+repo_url: https://github.com/GiuliaGualtieri/french-exercises
 
 copyright: Copyright (c) 2023-present Giulia Gualtieri <giulia.gualtieri@mail.polimi.it>
 
@@ -38,7 +38,7 @@ plugins:
 extra:
   social:
     - icon: fontawesome/brands/python
-      link: https://pypi.org/project/french-exercices/
+      link: https://pypi.org/project/french-exercises/
     - icon: fontawesome/brands/github
       link: https://github.com/GiuliaGualtieri
 

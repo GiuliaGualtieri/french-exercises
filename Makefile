@@ -13,7 +13,7 @@ format-check:
 
 # Check the code style
 lint:
-	ruff french_exercises tests utils
+	ruff --fix french_exercises tests utils
 
 # Lunch the tests
 test:

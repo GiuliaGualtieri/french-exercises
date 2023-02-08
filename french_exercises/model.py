@@ -19,6 +19,3 @@ def f_decode_input(txt):
     probs = logits[0, masked_index].softmax(dim=0)
     _, predictions = probs.topk(5)
     return tokenizer.decode(predictions).split()
-
-
-# product['PythonCallable'] = f_decode_input
