@@ -14,31 +14,34 @@
 </details>
 
 ### Current Behavior:
-<!-- A concise description of what you're experiencing. -->
+Write here a concise description of what you're experiencing. 
 
 ### Expected Behavior:
-<!-- A concise description of what you expected to happen. -->
+Write here a concise description of what you expected to happen.
 
 ### Steps To Reproduce:
-<!--
-Example: steps to reproduce the behavior:
+Steps to reproduce the behavior could be:
 1. In this environment...
 2. With this config...
 3. Run '...'
 4. See error...
--->
+
 
 ### Environment:
-<!--
 Example:
 - OS: Ubuntu 20.04
 - Node: 13.14.0
 - npm: 7.6.3
--->
+
 
 ### Anything else:
-<!--
-Logs? Links? References? Anything that will give us more context about the issue that you are encountering!
+Write here if you would like to add any 
+- logs 
+- links, 
+- references, 
+- discussions, 
+- anything 
+that will give us more context about the issue that you are encountering!
 -->
   
 ---
