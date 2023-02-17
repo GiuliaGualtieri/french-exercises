@@ -76,21 +76,21 @@ class App(customtkinter.CTk):
         return df_QA['question'].iloc[self.rnd] + ".\n"
     
     def possible_answers(self):
-        answer_txt = df_QA['answer'].iloc[self.rnd][1:-1]
+        answer_txt = df_QA['answers'].iloc[self.rnd][1:-1]
         answer_list = answer_txt.split("'")
         answer_set = set(answer_list)
         answer_set.remove(", ")
         answer_set.remove("")
         answer_list = list(answer_set)
+        if len(answer_list) < 2:
+            pass
         # answer_set.shuffle()
         return answer_list
 
     def insert_answer_callback(self):
         # inserisco e check the answer of the user
         self.textbox.insert("insert", "\n" + "<mask> : " + self.combobox.get())
-        answer_txt = df_QA['answer'].iloc[self.rnd][1:-1]
-        answer_list = answer_txt.split("'")
-        answer = answer_list[-2]
+        answer = df_QA['answer'].iloc[self.rnd]
         right = False
         # check if it is the right answer
         if self.combobox.get() == answer:
@@ -122,9 +122,8 @@ class App(customtkinter.CTk):
             self.combobox.set(self.possible_answers()[0])
         else:
             # print your final score
-            self.textbox.insert("insert", "YOUR FINAL SCORE IS " + str(int(self.right/self.counter)))
+            self.textbox.insert("insert", f"YOUR FINAL SCORE IS {str(self.right)} over {self.counter}")
             self.textbox.configure(state="disabled")
-
     
     def change_appearance_mode_event(self, new_appearance_mode: str):
         customtkinter.set_appearance_mode(new_appearance_mode)
