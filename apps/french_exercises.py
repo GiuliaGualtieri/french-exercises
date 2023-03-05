@@ -69,7 +69,8 @@ class App(customtkinter.CTk):
     # supporting functions
     def random_sample(self):
         # set seed
-        self.rnd = random.randint(0, df_QA.shape[0] - 1)
+        # self.rnd = random.randint(0, df_QA.shape[0] - 1)
+        self.rnd += 1
 
     def insert_new_question(self):
         # insert a new question
@@ -109,7 +110,7 @@ class App(customtkinter.CTk):
         self.random_sample()
         # clear textbox
         self.textbox.delete("0.0", "end")
-        if self.counter<20:
+        if self.counter<df_QA.shape[0]:
             # go to the next question
             self.textbox.insert("insert", self.insert_new_question())
             # update counters
