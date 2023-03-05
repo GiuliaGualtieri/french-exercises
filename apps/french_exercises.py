@@ -33,7 +33,7 @@ class App(customtkinter.CTk):
         self.frame_title_text.grid_rowconfigure(1, weight=1)
         self.frame_title_text.grid_columnconfigure(1, weight=1)
         self.title_label = customtkinter.CTkLabel(
-            self.frame_title_text, text="Let's do practice in French!", 
+            self.frame_title_text, text="Let's practice in French!", 
             font=customtkinter.CTkFont(family = "Calibri", size=30, weight="bold",slant ='roman'))
         self.title_label.grid(row=0, column=1, columnspan=2, padx=(20, 20), pady=(20, 20))
         # text question
