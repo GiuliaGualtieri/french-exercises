@@ -8,7 +8,7 @@ from time import sleep
 customtkinter.set_appearance_mode("System")  # Modes: "System" (standard), "Dark", "Light"
 customtkinter.set_default_color_theme("blue")  # Themes: "blue" (standard), "green", "dark-blue"
 
-df_QA = pd.read_csv("data/out/df_QA.csv", header=0)
+df_QA = pd.read_csv("data/out/df_QA.csv", header=0, sep = ";")
 
 class App(customtkinter.CTk):
     def __init__(self):
@@ -69,8 +69,8 @@ class App(customtkinter.CTk):
     # supporting functions
     def random_sample(self):
         # set seed
-        # self.rnd = random.randint(0, df_QA.shape[0] - 1)
-        self.rnd += 1
+        self.rnd = random.randint(0, df_QA.shape[0] - 1)
+        # self.rnd += 1
 
     def insert_new_question(self):
         # insert a new question
@@ -110,7 +110,8 @@ class App(customtkinter.CTk):
         self.random_sample()
         # clear textbox
         self.textbox.delete("0.0", "end")
-        if self.counter<df_QA.shape[0]:
+        if self.counter<20:
+        # if self.counter<df_QA.shape[0]:
             # go to the next question
             self.textbox.insert("insert", self.insert_new_question())
             # update counters

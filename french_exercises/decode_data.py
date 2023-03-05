@@ -13,11 +13,11 @@ product = None
 # %%
 dict_QA = {"question": [], "answer": []}
 
-df = pd.read_csv(upstream["read-data"]["data"])
+df = pd.read_csv(upstream["read-data"]["data"], sep = ";")
 
 dict_QA = {"question": [], "answer": [], "answers": []}
 
-list_punctuation_to_remove = '!"#$%&()*+,-./:;<=>?@[\\]^_`{|}~)Ã©ª'
+list_punctuation_to_remove = '!"#$%&()*+-./:;<=>?@[\\]^_`{|}~)Ã©ª'
 
 
 def check_prediction(to_mask, predictions):
