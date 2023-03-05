@@ -4,7 +4,7 @@ tasks:
     name: read-data
     product:
       nb: output/read_data.html
-      data: output/df.csv
+      data: output/df_petitprince.csv
 
   # model training
   - source: french_exercises/model.py
@@ -17,4 +17,4 @@ tasks:
     name: decode-data
     product:
       nb: output/decode_data.html
-      data: output/df_QA.csv
+      data: output/df_QA_petitprince.csv

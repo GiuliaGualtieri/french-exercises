@@ -9,7 +9,8 @@ product = None
 
 # %%
 df = pd.DataFrame(np.zeros((1, 1)))
-with open("data/in/lepetitprinceexupery.txt", "r") as f:
+with open("data/in/lepetitprinceexupery.txt", "r", encoding="utf-8") as f:
+    # with open("data/in/source_francais_facile.txt", "r", encoding='utf-8') as f:
     lines = f.readlines()
     for line in lines:
         data = line.strip().split("\t")
@@ -19,7 +20,7 @@ with open("data/in/lepetitprinceexupery.txt", "r") as f:
                 df = pd.DataFrame(np.append(df.values, [[phrase]], axis=0))
 
 # %%
-list_punctuation_to_remove = "!#$%&()*+./:;<=>?@[\\]^_{|}~)"
+list_punctuation_to_remove = '!"#$%&()*+-./:;<=>?@[\\]^_`{|}~)Ã©ª'
 
 # %%
 def check_row_is_to_remove(row):
@@ -50,4 +51,4 @@ df = df.loc[df["check"] == "False"]
 df.head(10)
 
 # %%
-df.to_csv(product["data"], index=False)
+df.to_csv(product["data"], index=False, sep=";")
