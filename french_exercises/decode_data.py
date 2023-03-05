@@ -13,7 +13,7 @@ product = None
 # %%
 dict_QA = {"question": [], "answer": []}
 
-df = pd.read_csv(upstream["read-data"]["data"], sep = ";")
+df = pd.read_csv(upstream["read-data"]["data"], sep=";")
 
 dict_QA = {"question": [], "answer": [], "answers": []}
 

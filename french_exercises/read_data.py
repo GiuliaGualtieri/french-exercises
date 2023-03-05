@@ -9,8 +9,8 @@ product = None
 
 # %%
 df = pd.DataFrame(np.zeros((1, 1)))
-with open("data/in/lepetitprinceexupery.txt", "r", encoding='utf-8') as f:
-# with open("data/in/source_francais_facile.txt", "r", encoding='utf-8') as f:
+with open("data/in/lepetitprinceexupery.txt", "r", encoding="utf-8") as f:
+    # with open("data/in/source_francais_facile.txt", "r", encoding='utf-8') as f:
     lines = f.readlines()
     for line in lines:
         data = line.strip().split("\t")
@@ -51,4 +51,4 @@ df = df.loc[df["check"] == "False"]
 df.head(10)
 
 # %%
-df.to_csv(product["data"], index=False, sep = ";")
+df.to_csv(product["data"], index=False, sep=";")
