@@ -4,7 +4,7 @@
 |---|---|---|---|
 | issue title   | bref description  |  choose the labels from label lists | @yourgithubname  |
 
-<!--Please! Before going on search to see if an issue already exists for the bug you encountered.
+<!--Please! Before going ahead search to see if an issue already exists for the bug you encountered.
 -->
 <details>
 <summary>labels list</summary>
