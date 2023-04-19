@@ -51,7 +51,7 @@ In the next section, the exploited model is described more in detail, i.e. [mBAR
 The **mBARThez** model is a child of BART, which is a transformer encoder-decoder (seq2seq) model with a bidirectional (BERT-like) encoder and an autoregressive (GPT-like) decoder. BART is pre-trained by corrupting text with an arbitrary noising function, and learning a model to reconstruct the original text.   
 BARThez is pretrained by learning to reconstruct a corrupted input sentence. A corpus of 66GB of french raw text is used to carry out the pretraining.
 Both its encoder and its decoder are pretrained.   
-Moreover, in addition to BARThez, that is pretrained from scratch, the multilingual BART, mBART, is continuously pretrained which boosted its performance in both discriminative and generative tasks. The french adapted version is called mBARThez and it's the one exploited in this project.
+In addition to BARThez, that is pretrained from scratch, the multilingual BART, mBART, is continuously pretrained which boosted its performance in both discriminative and generative tasks. The french adapted version is called mBARThez and it's the one exploited in this project.
 
 For more detail on the model, check the following sources: [paper](https://arxiv.org/abs/2010.12321) and [github](https://github.com/moussaKam/BARThez).   
 
