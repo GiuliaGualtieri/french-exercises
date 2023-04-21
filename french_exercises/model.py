@@ -11,6 +11,8 @@ tokenizer = AutoTokenizer.from_pretrained("moussaKam/mbarthez")
 
 # model = TFAutoModelForSeq2SeqLM.from_pretrained("moussaKam/mbarthez", from_pt=True, resume_download = True)
 model = AutoModelForSeq2SeqLM.from_pretrained("moussaKam/mbarthez")
+
+
 # %%
 def f_decode_input(txt):
     input_ids = tokenizer([txt], return_tensors="pt")["input_ids"]
