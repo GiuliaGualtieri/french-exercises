@@ -4,10 +4,12 @@ pandas
 numpy
 torch
 
-# Developments: formatter, linter, builder, make docs,
+# Developments: formatter, linter, builder, make docs, pre-commit
 black
 ruff
 pre-commit
 build
 pipreqs
 requests
+sphinx
+sphinx-theme
