@@ -22,6 +22,7 @@ with open("data/in/lepetitprinceexupery.txt", "r", encoding="utf-8") as f:
 # %%
 list_punctuation_to_remove = '!"#$%&()*+-./:;<=>?@[\\]^_`{|}~)Ã©ª'
 
+
 # %%
 def check_row_is_to_remove(row):
     # convert and remove punctuation
