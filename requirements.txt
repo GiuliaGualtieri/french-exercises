@@ -4,6 +4,7 @@ pandas
 numpy
 torch
 customtkinter
+ploomber
 
 # Developments: formatter, linter, builder, make docs, pre-commit
 black
