@@ -9,7 +9,7 @@ tasks:
   # model training
   - source: french_exercises/model.py
     name: model
-    product: 
+    product:
       nb: output/model.html
 
   # decode dataset

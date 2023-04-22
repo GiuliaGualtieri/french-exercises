@@ -14,7 +14,7 @@
 </details>
 
 ### Current Behavior:
-Write here a concise description of what you're experiencing. 
+Write here a concise description of what you're experiencing.
 
 ### Expected Behavior:
 Write here a concise description of what you expected to happen.
@@ -35,15 +35,15 @@ Example:
 
 
 ### Anything else:
-Write here if you would like to add any 
-- logs 
-- links, 
-- references, 
-- discussions, 
-- anything 
+Write here if you would like to add any
+- logs
+- links,
+- references,
+- discussions,
+- anything
 that will give us more context about the issue that you are encountering!
 -->
-  
+
 ---
 ### Contact Details
 <!--

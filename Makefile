@@ -1,8 +1,9 @@
 .PHONY: format
 .PHONY: format-check
 .PHONY: lint
-.PHONY: tests
+.PHONY: test
 .PHONY: build
+.PHONY: doc
 
 # Format the code with black tool
 format:
@@ -23,3 +24,7 @@ test:
 # Build the sdist and wheel packages
 build:
 	python -m build
+
+doc:
+	cd docs
+	make html

@@ -796,7 +796,7 @@ Le petit prince s'assit sur la table et souffla un peu. Il avait déjà tant voy
 
 - Ah ! (Le petit prince était déçu.) Et des montagnes ?
 
-- Je ne puis pas le savoir, dit le géographe. 
+- Je ne puis pas le savoir, dit le géographe.
 
 - Et des villes et des fleuves et des déserts ?
 
@@ -844,7 +844,7 @@ Et le géographe, ayant ouvert son registre, tailla son crayon. On note d'abord 
 
 - Qu'est-ce que signifie"éphémère"?
 
-- Les géographies, dit le géographe, sont les livres les plus précieux de tous les livres. Elles ne se démodent jamais. Il est très rare qu'une montagne change de place. Il est très rare qu'un océan se vide de son eau. Nous écrivons des choses éternelles. 
+- Les géographies, dit le géographe, sont les livres les plus précieux de tous les livres. Elles ne se démodent jamais. Il est très rare qu'une montagne change de place. Il est très rare qu'un océan se vide de son eau. Nous écrivons des choses éternelles.
 
 - Mais les volcans éteints peuvent se réveiller, interrompit le petit prince. Qu'est-ce que signifie"éphémère"?
 
@@ -976,7 +976,7 @@ Le petit prince fit l'ascension d'une haute montagne. Les seules montagnes qu'il
 
 - Qui êtes-vous... qui êtes-vous... qui êtes-vous... répondit l'écho.
 
-- Soyez mes amis, je suis seul, dit-il.	
+- Soyez mes amis, je suis seul, dit-il.
 
 - Je suis seul ... je suis seul... je suis seul ... répondit l'écho.
 
@@ -1365,7 +1365,7 @@ Je poursuivis ma marche vers le mur. Je ne voyais ni n'entendais toujours person
 
 J'étais à vingt mètres du mur et je ne voyais toujours rien.
 
-Le petit prince dit encore, après un silence 
+Le petit prince dit encore, après un silence
 
 - Tu as du bon venin ? Tu es sûr de ne pas me faire souffrir longtemps ?
 

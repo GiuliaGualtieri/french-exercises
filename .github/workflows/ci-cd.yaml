@@ -86,3 +86,27 @@ jobs:
         run: python -m build
       #- name: deploy-docs-to-gh-pages
       #  run: mkdocs gh-deploy --force
+
+  make-docs:
+    needs: deploy
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: checkout
+        uses: actions/checkout@v3
+
+      - name: setup-python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.9
+
+      - name: install-dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e .
+          pip install sphinx
+          pip install sphinx-theme
+      - name: make docs
+        run: |
+          cd docs
+          make html
