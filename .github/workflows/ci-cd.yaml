@@ -62,7 +62,7 @@ jobs:
 
       - name: run-tests
         run: pytest -v --doctest-modules tests
- 
+
   deploy:
     needs: run-tests
 
@@ -86,7 +86,7 @@ jobs:
         run: python -m build
       #- name: deploy-docs-to-gh-pages
       #  run: mkdocs gh-deploy --force
-  
+
   make-docs:
     needs: deploy
     runs-on: ubuntu-latest

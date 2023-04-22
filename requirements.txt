@@ -3,6 +3,7 @@ transformers
 pandas
 numpy
 torch
+customtkinter
 
 # Developments: formatter, linter, builder, make docs, pre-commit
 black

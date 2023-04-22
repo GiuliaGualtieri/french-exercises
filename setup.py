@@ -1,16 +1,16 @@
 from setuptools import find_packages, setup
 
 setup(
-    name='french_exercises',
-    version='0.0.1',
+    name="french_exercises",
+    version="0.0.1",
     packages=find_packages(),
-    description='Python repository to do practice in french',
-    license='MIT',
+    description="Python repository to do practice in french",
+    license="MIT",
     install_requires=[
-        'torch',
-        'transformers',
-        'pandas',
-        'numpy',
-        'random',
+        "torch",
+        "transformers",
+        "pandas",
+        "numpy",
+        "random",
     ],
 )
