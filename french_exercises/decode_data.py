@@ -72,4 +72,4 @@ df["answers"] = dict_QA["answers"]
 
 # %% Save the output
 df.drop(labels=["original", "check"], axis=1, inplace=True)
-df.to_csv(product["data"], index=False)
+df.to_csv(product["data"], index=False, sep=";")
