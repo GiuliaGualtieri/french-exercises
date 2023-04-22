@@ -105,6 +105,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install -e .
           pip install sphinx
+          pip install sphinx-theme
       - name: make docs
         run: |
           cd docs
