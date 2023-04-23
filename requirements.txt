@@ -15,3 +15,5 @@ pipreqs
 requests
 sphinx
 sphinx-theme
+pyinstaller
+pretty-errors
