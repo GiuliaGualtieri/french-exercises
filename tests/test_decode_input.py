@@ -1,4 +1,4 @@
-from french_exercises.model import f_decode_input
+from french_exercises.core.model import f_decode_input
 
 
 def test_decode_input():

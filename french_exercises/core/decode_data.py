@@ -3,7 +3,7 @@ import random
 
 import pandas as pd
 
-from french_exercises.model import f_decode_input
+from french_exercises.core.model import f_decode_input
 
 # %% tags=["parameters"]
 # declare a list tasks whose products you want to use as inputs

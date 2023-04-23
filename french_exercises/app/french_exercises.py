@@ -13,7 +13,7 @@ customtkinter.set_default_color_theme(
 df_QA = pd.read_csv("data/out/df_QA.csv", header=0, sep=";")
 
 
-class App(customtkinter.CTk):
+class FrenchApp(customtkinter.CTk):
     def __init__(self):
         super().__init__()
         self.rnd = 0
@@ -180,8 +180,3 @@ class App(customtkinter.CTk):
     def change_scaling_event(self, new_scaling: str):
         new_scaling_float = int(new_scaling.replace("%", "")) / 100
         customtkinter.set_widget_scaling(new_scaling_float)
-
-
-if __name__ == "__main__":
-    app = App()
-    app.mainloop()
