@@ -118,4 +118,5 @@ venv.bak/
 # Output
 output/
 # data/
+customtkinter/
 experiments/
